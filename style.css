@@ -1,0 +1,409 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.main-calculator {
+  margin-top: 40px;
+  width: 428px;
+  height: 926px;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-calculator {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 29px;
+}
+
+.header-icon {
+  padding-right: 29px;
+}
+
+.header-time {
+  padding-left: 49px;
+  color: #fff;
+  text-align: center;
+  font-family: "San Francisco";
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 100% */
+  width: 54px;
+}
+
+.result {
+  color: #fff;
+  font-family: "San Francisco";
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  font-size: 90px;
+  height: 300px;
+  font-style: normal;
+  font-weight: 274;
+  line-height: normal;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 47px;
+  align-items: flex-end;
+
+}
+
+.footer-calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-calculator-first {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-calculator-first-1 {
+  display: flex;
+  height: 48px;
+  padding: 24px 21px 23px 21px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 352px;
+  background: var(--Calculator-grey, #a5a5a5);
+}
+
+.footer-calculator-first-2 {
+  display: flex;
+  width: 28px;
+  height: 48px;
+  padding: 23px 29px 22px 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 352px;
+  background: var(--Calculator-grey, #a5a5a5);
+}
+
+.footer-calculator-first-3 {
+  display: flex;
+  width: 28px;
+  height: 48px;
+  padding: 24px 30px 23px 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 352px;
+  background: var(--Calculator-grey, #a5a5a5);
+}
+
+.footer-calculator-first-4 {
+  display: flex;
+  width: 38px;
+  height: 70px;
+  padding: 12px 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 352px;
+  background: var(--Calculator-orange, #f1a33b);
+}
+
+.footer-calculator-first-1-text {
+  color: #000;
+  text-align: center;
+  font-family: "San Francisco";
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 510;
+  line-height: normal;
+}
+
+.footer-calculator-first-1-plus {
+  color: #000;
+  text-align: center;
+  font-family: "San Francisco";
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-calculator-first-1-drob {
+  transform: rotate(19.885deg);
+  color: #000;
+  text-align: center;
+  font-family: "San Francisco";
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-calculator-first-1-minus {
+  color: #000;
+  text-align: center;
+  font-family: "San Francisco";
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-calculator-first-3 {
+  color: #000;
+  text-align: center;
+  font-family: SF Pro;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-calculator-first {
+  gap: 14px;
+}
+
+.footer-calculator-first-3-text {
+  color: #000;
+  text-align: center;
+  font-family: SF Pro;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-calculator-first-4-text {
+  width: 43px;
+  height: 73px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: SF Pro;
+  font-size: 61px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-calculator-two {
+  display: flex;
+  gap: 14px;
+  padding-top: 14px;
+}
+
+.footer-calculator-two-1 {
+  display: flex;
+  width: 88px;
+  padding: 20px 0px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 352px;
+  background: var(--Calculator-black, #333);
+}
+
+.footer-calculator-two-text-seven {
+  color: #fff;
+  text-align: center;
+  font-family: SF Pro;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-calculator-two-2 {
+  display: flex;
+  width: 88px;
+  padding: 20px 0px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 352px;
+  background: var(--Calculator-black, #333);
+}
+
+.footer-calculator-two-text-eight {
+  color: #fff;
+  text-align: center;
+  font-family: SF Pro;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-calculator-two-3 {
+  display: flex;
+  width: 88px;
+  padding: 20px 0px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 352px;
+  background: var(--Calculator-black, #333);
+}
+
+.footer-calculator-two-text-nine {
+  color: #fff;
+  text-align: center;
+  font-family: SF Pro;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-calculator-three-text-minus {
+  width: 43px;
+  height: 88px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: SF Pro;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-calculator-three-4 {
+  display: flex;
+  width: 88px;
+  height: 88px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 352px;
+  background: var(--Calculator-orange, #f1a33b);
+}
+
+.footer-calculator-four-4 {
+  display: flex;
+  width: 32px;
+  height: 60px;
+  padding: 13px 29px 12px 29px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 352px;
+  background: var(--Calculator-orange, #f1a33b);
+}
+
+.footer-calculator-three-text-plus {
+  width: 30px;
+  height: 63px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: SF Pro;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-calculator-five {
+  display: flex;
+  flex-direction: row;
+  padding-top: 14px;
+  gap: 14px;
+}
+
+.footer-calculator-five-1 {
+  display: flex;
+  width: 21px;
+  padding: 20px 130px 20px 35px;
+  align-items: center;
+  border-radius: 352px;
+  background: var(--Calculator-black, #333);
+}
+
+.footer-calculator-five-test-zero {
+  color: #fff;
+  font-family: SF Pro;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-calculator-five-2 {
+  display: flex;
+  width: 88px;
+  padding: 20px 0px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 352px;
+  background: var(--Calculator-black, #333);
+}
+
+.footer-calculator-five-test-point {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-calculator-five-3 {
+  display: flex;
+  width: 32px;
+  height: 61px;
+  padding: 12px 28px 12px 29px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 352px;
+  background: var(--Calculator-orange, #f1a33b);
+}
+
+.footer-calculator-five-test-equal {
+  width: 31px;
+  height: 64px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:ital,wght@0,600;1,600&family=Noto+Sans+Gujarati&family=Noto+Sans:wght@500&family=Oswald:wght@400;500;700&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:ital,wght@0,600;1,600&family=Noto+Sans+Gujarati&family=Noto+Sans:wght@500&family=Open+Sans&family=Oswald:wght@400;500;700&family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:ital,wght@0,600;1,600&family=Noto+Sans+Gujarati&family=Noto+Sans:wght@500&family=Open+Sans:wght@700&family=Oswald:wght@400;500;700&family=Roboto&display=swap');
+
+
+.active_button {
+  color: white;
+}
+
+.footer-calculator-two-text-multiply {
+  width: 33px;
+  height: 44px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.footer-calculator-two-4 {
+  display: flex;
+  width: 32px;
+  height: 61px;
+  padding: 12px 28px 12px 29px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 352px;
+  background: var(--Calculator-orange, #f1a33b);
+}
